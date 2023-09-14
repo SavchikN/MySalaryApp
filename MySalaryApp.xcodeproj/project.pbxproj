@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		112CFDC22AAA33440070C6D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CFDC12AAA33440070C6D5 /* AppDelegate.swift */; };
 		112CFDC42AAA33440070C6D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CFDC32AAA33440070C6D5 /* SceneDelegate.swift */; };
-		112CFDC62AAA33440070C6D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CFDC52AAA33440070C6D5 /* ViewController.swift */; };
-		112CFDC92AAA33440070C6D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112CFDC72AAA33440070C6D5 /* Main.storyboard */; };
+		112CFDC62AAA33440070C6D5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CFDC52AAA33440070C6D5 /* MainViewController.swift */; };
 		112CFDCB2AAA33450070C6D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112CFDCA2AAA33450070C6D5 /* Assets.xcassets */; };
 		112CFDCE2AAA33450070C6D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112CFDCC2AAA33450070C6D5 /* LaunchScreen.storyboard */; };
+		112CFDD72AAA34EB0070C6D5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 112CFDD62AAA34EB0070C6D5 /* SnapKit */; };
+		112CFDDA2AAA399A0070C6D5 /* CurrentSalary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CFDD92AAA399A0070C6D5 /* CurrentSalary.swift */; };
+		112CFDDC2AAAE47D0070C6D5 /* ExpectedSalary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CFDDB2AAAE47D0070C6D5 /* ExpectedSalary.swift */; };
+		112CFDDE2AAAE9B40070C6D5 /* ReservedAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CFDDD2AAAE9B40070C6D5 /* ReservedAmount.swift */; };
+		112CFDE22AAAF9550070C6D5 /* SpendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CFDE12AAAF9550070C6D5 /* SpendingViewController.swift */; };
+		1169C56C2AB11ECB0030BE81 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169C56B2AB11ECB0030BE81 /* CalendarView.swift */; };
+		1169C56E2AB27C330030BE81 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169C56D2AB27C330030BE81 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		112CFDBE2AAA33440070C6D5 /* MySalaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySalaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		112CFDC12AAA33440070C6D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		112CFDC32AAA33440070C6D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		112CFDC52AAA33440070C6D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		112CFDC82AAA33440070C6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		112CFDC52AAA33440070C6D5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		112CFDCA2AAA33450070C6D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		112CFDCD2AAA33450070C6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		112CFDCF2AAA33450070C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112CFDD92AAA399A0070C6D5 /* CurrentSalary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSalary.swift; sourceTree = "<group>"; };
+		112CFDDB2AAAE47D0070C6D5 /* ExpectedSalary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedSalary.swift; sourceTree = "<group>"; };
+		112CFDDD2AAAE9B40070C6D5 /* ReservedAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservedAmount.swift; sourceTree = "<group>"; };
+		112CFDE12AAAF9550070C6D5 /* SpendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingViewController.swift; sourceTree = "<group>"; };
+		1169C56B2AB11ECB0030BE81 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		1169C56D2AB27C330030BE81 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112CFDD72AAA34EB0070C6D5 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +68,84 @@
 		112CFDC02AAA33440070C6D5 /* MySalaryApp */ = {
 			isa = PBXGroup;
 			children = (
-				112CFDC12AAA33440070C6D5 /* AppDelegate.swift */,
-				112CFDC32AAA33440070C6D5 /* SceneDelegate.swift */,
-				112CFDC52AAA33440070C6D5 /* ViewController.swift */,
-				112CFDC72AAA33440070C6D5 /* Main.storyboard */,
-				112CFDCA2AAA33450070C6D5 /* Assets.xcassets */,
-				112CFDCC2AAA33450070C6D5 /* LaunchScreen.storyboard */,
-				112CFDCF2AAA33450070C6D5 /* Info.plist */,
+				1169C56F2AB27CDF0030BE81 /* Helpers */,
+				1169C5722AB31BF80030BE81 /* Controllers */,
+				112CFDD82AAA397C0070C6D5 /* Views */,
+				1169C5742AB31C210030BE81 /* Resources */,
+				1169C5732AB31C0F0030BE81 /* App */,
 			);
 			path = MySalaryApp;
+			sourceTree = "<group>";
+		};
+		112CFDD82AAA397C0070C6D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1169C56A2AB11EAB0030BE81 /* SpendingVC */,
+				1169C5692AB11EA20030BE81 /* MainVC */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1169C5692AB11EA20030BE81 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				112CFDD92AAA399A0070C6D5 /* CurrentSalary.swift */,
+				112CFDDB2AAAE47D0070C6D5 /* ExpectedSalary.swift */,
+				112CFDDD2AAAE9B40070C6D5 /* ReservedAmount.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		1169C56A2AB11EAB0030BE81 /* SpendingVC */ = {
+			isa = PBXGroup;
+			children = (
+				1169C5772AB32B0B0030BE81 /* Cells */,
+				1169C56B2AB11ECB0030BE81 /* CalendarView.swift */,
+				1169C56D2AB27C330030BE81 /* SettingsView.swift */,
+			);
+			path = SpendingVC;
+			sourceTree = "<group>";
+		};
+		1169C56F2AB27CDF0030BE81 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1169C5722AB31BF80030BE81 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				112CFDC52AAA33440070C6D5 /* MainViewController.swift */,
+				112CFDE12AAAF9550070C6D5 /* SpendingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1169C5732AB31C0F0030BE81 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				112CFDC12AAA33440070C6D5 /* AppDelegate.swift */,
+				112CFDC32AAA33440070C6D5 /* SceneDelegate.swift */,
+				112CFDCF2AAA33450070C6D5 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1169C5742AB31C210030BE81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				112CFDCA2AAA33450070C6D5 /* Assets.xcassets */,
+				112CFDCC2AAA33450070C6D5 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1169C5772AB32B0B0030BE81 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +164,9 @@
 			dependencies = (
 			);
 			name = MySalaryApp;
+			packageProductDependencies = (
+				112CFDD62AAA34EB0070C6D5 /* SnapKit */,
+			);
 			productName = MySalaryApp;
 			productReference = 112CFDBE2AAA33440070C6D5 /* MySalaryApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 112CFDB52AAA33440070C6D5;
+			packageReferences = (
+				112CFDD52AAA34EB0070C6D5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 112CFDBF2AAA33440070C6D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +214,6 @@
 			files = (
 				112CFDCE2AAA33450070C6D5 /* LaunchScreen.storyboard in Resources */,
 				112CFDCB2AAA33450070C6D5 /* Assets.xcassets in Resources */,
-				112CFDC92AAA33440070C6D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +224,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112CFDC62AAA33440070C6D5 /* ViewController.swift in Sources */,
+				112CFDE22AAAF9550070C6D5 /* SpendingViewController.swift in Sources */,
+				112CFDC62AAA33440070C6D5 /* MainViewController.swift in Sources */,
+				1169C56C2AB11ECB0030BE81 /* CalendarView.swift in Sources */,
+				1169C56E2AB27C330030BE81 /* SettingsView.swift in Sources */,
+				112CFDDA2AAA399A0070C6D5 /* CurrentSalary.swift in Sources */,
 				112CFDC22AAA33440070C6D5 /* AppDelegate.swift in Sources */,
+				112CFDDE2AAAE9B40070C6D5 /* ReservedAmount.swift in Sources */,
 				112CFDC42AAA33440070C6D5 /* SceneDelegate.swift in Sources */,
+				112CFDDC2AAAE47D0070C6D5 /* ExpectedSalary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		112CFDC72AAA33440070C6D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				112CFDC82AAA33440070C6D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		112CFDCC2AAA33450070C6D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +373,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYGD22Q689;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MySalaryApp/Info.plist;
+				INFOPLIST_FILE = MySalaryApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +400,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYGD22Q689;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MySalaryApp/Info.plist;
+				INFOPLIST_FILE = MySalaryApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +440,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		112CFDD52AAA34EB0070C6D5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		112CFDD62AAA34EB0070C6D5 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 112CFDD52AAA34EB0070C6D5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 112CFDB62AAA33440070C6D5 /* Project object */;
 }

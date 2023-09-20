@@ -23,11 +23,10 @@ class SettingsView: UIView {
         let time = UITextField()
         time.backgroundColor = .clear
         time.layer.borderWidth = 1
-        time.layer.borderColor = CGColor(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))
+        time.layer.borderColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         time.layer.cornerRadius = 20
         time.textColor = .white
         time.keyboardType = .decimalPad
-        time.returnKeyType = .done
         time.textAlignment = .center
         time.font = UIFont(name: "Avenir Next Medium", size: 30)
         return time
@@ -50,9 +49,9 @@ class SettingsView: UIView {
         super.init(frame: frame)
         
         setupSubviews(
-          workedTimeLabel,
-          workedTimeTextField,
-          addButton
+            workedTimeLabel,
+            workedTimeTextField,
+            addButton
         )
         
         setConstraints()
@@ -79,12 +78,12 @@ class SettingsView: UIView {
     }
     
     @objc private func addButtonTapped() {
-        print("tap")
+        print("add")
     }
 }
 
-extension SettingsView {
-    private func setConstraints() {
+private extension SettingsView {
+    func setConstraints() {
         workedTimeLabel.snp.makeConstraints { make in
             make.top.equalTo(snp.top).inset(0)
             make.leading.equalTo(snp.leading).inset(15)

@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class SpendingViewController: UIViewController {
+final class SpendingViewController: UIViewController {
     
     private lazy var mainTitle: UILabel = {
         let label = UILabel()

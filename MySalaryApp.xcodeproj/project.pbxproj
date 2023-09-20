@@ -19,6 +19,9 @@
 		112CFDE22AAAF9550070C6D5 /* SpendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CFDE12AAAF9550070C6D5 /* SpendingViewController.swift */; };
 		1169C56C2AB11ECB0030BE81 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169C56B2AB11ECB0030BE81 /* CalendarView.swift */; };
 		1169C56E2AB27C330030BE81 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169C56D2AB27C330030BE81 /* SettingsView.swift */; };
+		1169C57D2AB57A8D0030BE81 /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169C57C2AB57A8D0030BE81 /* RateView.swift */; };
+		1169C5802AB7AEF70030BE81 /* SalaryLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169C57F2AB7AEF70030BE81 /* SalaryLogic.swift */; };
+		1169C5822ABB96FC0030BE81 /* AddSpendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169C5812ABB96FC0030BE81 /* AddSpendingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		112CFDE12AAAF9550070C6D5 /* SpendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingViewController.swift; sourceTree = "<group>"; };
 		1169C56B2AB11ECB0030BE81 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		1169C56D2AB27C330030BE81 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1169C57C2AB57A8D0030BE81 /* RateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		1169C57F2AB7AEF70030BE81 /* SalaryLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryLogic.swift; sourceTree = "<group>"; };
+		1169C5812ABB96FC0030BE81 /* AddSpendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpendingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 		112CFDC02AAA33440070C6D5 /* MySalaryApp */ = {
 			isa = PBXGroup;
 			children = (
+				1169C57E2AB7AEE90030BE81 /* Models */,
 				1169C56F2AB27CDF0030BE81 /* Helpers */,
 				1169C5722AB31BF80030BE81 /* Controllers */,
 				112CFDD82AAA397C0070C6D5 /* Views */,
@@ -92,6 +99,7 @@
 				112CFDD92AAA399A0070C6D5 /* CurrentSalary.swift */,
 				112CFDDB2AAAE47D0070C6D5 /* ExpectedSalary.swift */,
 				112CFDDD2AAAE9B40070C6D5 /* ReservedAmount.swift */,
+				1169C57C2AB57A8D0030BE81 /* RateView.swift */,
 			);
 			path = MainVC;
 			sourceTree = "<group>";
@@ -118,6 +126,7 @@
 			children = (
 				112CFDC52AAA33440070C6D5 /* MainViewController.swift */,
 				112CFDE12AAAF9550070C6D5 /* SpendingViewController.swift */,
+				1169C5812ABB96FC0030BE81 /* AddSpendingViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -146,6 +155,14 @@
 			children = (
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		1169C57E2AB7AEE90030BE81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1169C57F2AB7AEF70030BE81 /* SalaryLogic.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +245,11 @@
 				112CFDC62AAA33440070C6D5 /* MainViewController.swift in Sources */,
 				1169C56C2AB11ECB0030BE81 /* CalendarView.swift in Sources */,
 				1169C56E2AB27C330030BE81 /* SettingsView.swift in Sources */,
+				1169C5802AB7AEF70030BE81 /* SalaryLogic.swift in Sources */,
 				112CFDDA2AAA399A0070C6D5 /* CurrentSalary.swift in Sources */,
+				1169C5822ABB96FC0030BE81 /* AddSpendingViewController.swift in Sources */,
 				112CFDC22AAA33440070C6D5 /* AppDelegate.swift in Sources */,
+				1169C57D2AB57A8D0030BE81 /* RateView.swift in Sources */,
 				112CFDDE2AAAE9B40070C6D5 /* ReservedAmount.swift in Sources */,
 				112CFDC42AAA33440070C6D5 /* SceneDelegate.swift in Sources */,
 				112CFDDC2AAAE47D0070C6D5 /* ExpectedSalary.swift in Sources */,
